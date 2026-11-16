@@ -1,0 +1,29 @@
+{
+    "_note":  "Gói phần mềm VAS phát hành từ repo này — sinh tự động từ setup/tools-manifest.json của VAS (tools/vas-repos/make-repos.ps1). Không sửa tay.",
+    "packages":  [
+                     {
+                         "id":  "krita",
+                         "vasRepo":  "Krita-VAS",
+                         "boCai":  "thanh-phan",
+                         "title":  "Krita (người dùng sửa ảnh, vẽ, tô màu ngay trên Desk)",
+                         "version":  "6.0.4.1",
+                         "file":  "krita-x64-6.0.4.1.zip",
+                         "url":  "https://download.kde.org/stable/krita/6.0.4.1/krita-x64-6.0.4.1.zip",
+                         "sha256":  "F85EEABA95C947BF7EFA31F9723F1458AA985F2F89E26AFCA8BF98628CE41413",
+                         "license":  "GPL-3.0-or-later",
+                         "home":  "https://krita.org",
+                         "sourceCode":  "https://download.kde.org/stable/krita/6.0.4.1/",
+                         "sources":  [
+                                         "https://download.kde.org/stable/krita/6.0.4.1/krita-6.0.4.1.tar.xz"
+                                     ],
+                         "licenseFiles":  [
+                                              "https://invent.kde.org/graphics/krita/-/raw/v6.0.4.1/LICENSES/GPL-3.0-or-later.txt"
+                                          ],
+                         "sourceGaps":  "Bản Windows kèm Qt, KDE Frameworks, các thư viện ảnh: mã nguồn theo bản dựng của dự án Krita (krita-deps).",
+                         "note":  "Mã băm: tệp .sha256 chính thức trên download.kde.org.",
+                         "update":  {
+                                        "kind":  "fixed"
+                                    }
+                     }
+                 ]
+}
